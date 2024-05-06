@@ -31,7 +31,7 @@ const BooksList = () => {
                 .finally(() => {
                     setLoading(false);
                 });
-        }, 2000);
+        }, 0);
     }, []);
 
     if (loading || error || filteredBooks.length === 0) {
